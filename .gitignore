@@ -1,0 +1,18 @@
+# AWS credentials and sensitive files
+*.pem               # SSH key pairs
+*.csv               # IAM user lists
+*.env               # Environment variables
+aws_config/         # Local AWS config folders
+
+# IDE/Editor files
+.vscode/            # VS Code settings
+.idea/              # JetBrains IDE files
+.DS_Store           # macOS metadata
+
+# System files
+Thumbs.db           # Windows thumbnails
+*.log               # Log files
+
+# AWS Generated Files
+scripts/sales-users.csv
+utilities/__pycache__/
