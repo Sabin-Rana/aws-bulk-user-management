@@ -4,7 +4,7 @@
 This project demonstrates the implementation of secure AWS environments with a focus on bulk user management for trainees. It involves provisioning EC2 instances and creating IAM users in bulk using AWS CLI and scripts.
 
 ### Use Case:
-- 🖥️ **Trainees**: Provisioning isolated EC2 instances for hands-on training and bulk IAM user creation.
+- **Trainees**: Provisioning isolated EC2 instances for hands-on training and bulk IAM user creation.
 
 ## Task 1: EC2 Setup for Trainees
 
@@ -67,7 +67,8 @@ Policy Attached: AmazonS3ReadOnlyAccess, which allows users to list and read obj
 
 **Screenshots:**
 This screenshot shows the SalesTeam group in IAM, with the AmazonS3ReadOnlyAccess policy attached. While this example is for SalesTeam, similar steps were followed for the Trainee users.
-- ![Sales Team IAM Policy](Screenshots/task2-4-iam-sales-team-policy)
+
+![Sales Team IAM Policy](https://github.com/Sabin-Rana/aws-bulk-user-management/blob/main/Screenshots/task2-4-iam-sales-team-policy.PNG?raw=true)
 
 ## Project Structure 
 pgsql
