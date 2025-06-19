@@ -27,11 +27,11 @@ Provision isolated EC2 instances for training purposes, ensuring that each train
    - Status: `2/2 checks passed`
 
 **Screenshots:**
-- ![EC2 Dashboard](Screenshots/task1-2-ec2-dashboard.PNG)
+- ![EC2 Dashboard](https://github.com/Sabin-Rana/aws-bulk-user-management/blob/main/Screenshots/task1-1-ec2-dashboard.PNG?raw=true)
 - ![AMI Selection](Screenshots/task1-2-ami-selection.PNG)
 - ![Key Pair Download](https://github.com/Sabin-Rana/aws-bulk-user-management/blob/main/Screenshots/task1-3-keypair-download.png?raw=true)
 - ![Security Groups List](Screenshots/task1-3a-security-groups-list.PNG)
-- ![Security Group Basic Configuration](Screenshots/task1-3b-sg-basic-config.PNG)
+- ![Security Group Basic Configuration](https://github.com/Sabin-Rana/aws-bulk-user-management/blob/main/Screenshots/task1-3b-sg-basic-config.png.PNG?raw=true)
 - ![Launch Success](Screenshots/task1-4-launch-success.PNG)
 
 
