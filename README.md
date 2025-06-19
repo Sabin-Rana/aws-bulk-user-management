@@ -72,9 +72,7 @@ This screenshot shows the SalesTeam group in IAM, with the AmazonS3ReadOnlyAcces
 ![Sales Team IAM Policy](https://github.com/Sabin-Rana/aws-bulk-user-management/blob/main/Screenshots/task2-4-iam-sales-team-policy.PNG?raw=true)
 
 ## Project Structure 
-pgsql
-Copy
-Edit
+
 aws-bulk-user-management/
 ├── utilities/
 │   └── generate_users.py       # Python script to generate the CSV file for user creation
