@@ -71,25 +71,26 @@ This screenshot shows the SalesTeam group in IAM, with the AmazonS3ReadOnlyAcces
 
 ![Sales Team IAM Policy](https://github.com/Sabin-Rana/aws-bulk-user-management/blob/main/Screenshots/task2-4-iam-sales-team-policy.PNG?raw=true)
 
-## Project Structure 
+## Project Structure
 
-aws-bulk-user-management/
-├── utilities/
-│   └── generate_users.py       # Python script to generate the CSV file for user creation
-├── scripts/
-│   └── .gitignore              # Ignores trainee-users.csv for security
-└── screenshots/
-    ├── task1-3c-ssh-rule.PNG
-    ├── task1-2-ec2-dashboard.PNG
-    ├── task1-2-ami-selection.PNG
-    ├── task1-3-keypair-download.PNG
-    ├── task1-3a-security-groups-list.PNG
-    ├── task1-3b-sg-basic-config.PNG
-    ├── task1-4-launch-success.PNG
-    ├── task2-1-group-creation.PNG
-    ├── task2-2-IAM-bulkuserupload-CLI-progress-creation.PNG
-    ├── task2-3-IAM-console-verify.PNG
-    └── task2-4-iam-sales-team-policy.PNG
+- **aws-bulk-user-management/**
+  - **utilities/**
+    - `generate_users.py`  — Python script to generate the CSV file for user creation
+  - **scripts/**
+    - `.gitignore`  — Ignores `trainee-users.csv` for security
+  - **screenshots/**
+    - `task1-3c-ssh-rule.PNG`
+    - `task1-2-ec2-dashboard.PNG`
+    - `task1-2-ami-selection.PNG`
+    - `task1-3-keypair-download.PNG`
+    - `task1-3a-security-groups-list.PNG`
+    - `task1-3b-sg-basic-config.PNG`
+    - `task1-4-launch-success.PNG`
+    - `task2-1-group-creation.PNG`
+    - `task2-2-IAM-bulkuserupload-CLI-progress-creation.PNG`
+    - `task2-3-IAM-console-verify.PNG`
+    - `task2-4-iam-sales-team-policy.PNG`
+
 Security Considerations
 Passwords are automatically generated based on AWS complexity requirements and are securely handled.
 
