@@ -91,14 +91,12 @@ This screenshot shows the SalesTeam group in IAM, with the AmazonS3ReadOnlyAcces
     - `task2-3-IAM-console-verify.PNG`
     - `task2-4-iam-sales-team-policy.PNG`
 
-Security Considerations
-Passwords are automatically generated based on AWS complexity requirements and are securely handled.
+## Security Considerations
+- Passwords are automatically generated based on AWS complexity requirements and are securely handled.
+- The CSV file containing user credentials is excluded from the repository via `.gitignore` to prevent exposure of sensitive data.
 
-The CSV file containing user credentials is excluded from the repository via .gitignore to prevent exposure of sensitive data.
+## Future Improvements
+- Implementing MFA (Multi-Factor Authentication) for added security.
+- Expanding the user generation script for additional use cases, such as different access policies.
+- Automating user lifecycle management (e.g., deactivation upon role changes).
 
-Future Improvements
-Implementing MFA (Multi-Factor Authentication) for added security.
-
-Expanding the user generation script for additional use cases, such as different access policies.
-
-Automating user lifecycle management (e.g., deactivation upon role changes).
